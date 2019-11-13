@@ -2,8 +2,9 @@ class Dog
   def intialize name= (give_dog_name)
     @give_dog_name = name 
     end 
-  def name
-    name  = "Fido"
+  def give_dog_name
+    give_dog_name = fido
+      puts "Fido"
   end 
    
     def bark 
@@ -12,7 +13,7 @@ class Dog
 end 
 
 fido = Dog.new 
-fido.name = "Fido"
+
 
 fido.bark
 
