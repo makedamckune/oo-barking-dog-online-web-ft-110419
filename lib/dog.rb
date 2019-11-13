@@ -3,8 +3,8 @@ class Dog
     @give_dog_name = name 
     end 
   def give_dog_name
-    give_dog_name = fido
-      puts "Fido"
+   @give_dog_name
+    
   end 
    
     def bark 
@@ -12,7 +12,8 @@ class Dog
     end 
 end 
 
-fido = Dog.new 
+fido = Dog.new
+fido.name = "Fiddo"
 
 
 fido.bark
