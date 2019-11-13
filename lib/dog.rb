@@ -2,8 +2,8 @@ class Dog
   def intialize name= (give_dog_name)
     @give_dog_name = name 
     end 
-  def name
-    @name = fido
+  def fido.name
+    fido.name  = "Fido"
   end 
    
     def bark 
