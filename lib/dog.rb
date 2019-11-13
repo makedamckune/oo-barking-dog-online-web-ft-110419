@@ -1,4 +1,5 @@
 class Dog 
-  def intialize
+  def intialize (give_dog_name)
+    
     
 end 
