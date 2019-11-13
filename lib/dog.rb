@@ -1,4 +1,4 @@
 class Dog 
-  def .name=(give_dog_name)
+  def int
     
 end 
