@@ -5,5 +5,8 @@ class Dog
   def give_dog_name
     @give_dog_name
   end 
-    
+    def bark 
+      puts "bark"
+    end 
 end 
+
